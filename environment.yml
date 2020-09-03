@@ -1,0 +1,6 @@
+name: ipychart_env
+channels:
+  - conda-forge
+dependencies:
+    - python
+    - ipychart

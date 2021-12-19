@@ -13,7 +13,7 @@ This repo contains a set of demonstration notebooks on how to use ipychart. It s
 To try ipychart using docker, just install docker and run the following command in your terminal:
 
 ```sh
-$ docker run -p 5000:5000 nicohlr/ipychart-demo[0.1]
+$ docker run -p 8888:8888 nicohlr/ipychart-demo-notebooks:0.1
 ```
 
 You can now open your browser and go to http://localhost:5000/. Authenticate yourself into jupyter by copying the token from your terminal and pasting it in the browser.

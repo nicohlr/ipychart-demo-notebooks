@@ -6,4 +6,4 @@ RUN pip install --no-cache-dir ipychart jupyter
 
 COPY . .
 
-CMD ["jupyter", "notebook", "--port=5000", "--no-browser", "--ip=0.0.0.0", "--allow-root"]
+CMD ["jupyter", "notebook", "--port=8888", "--no-browser", "--ip=0.0.0.0", "--allow-root"]
